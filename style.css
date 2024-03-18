@@ -3,6 +3,8 @@ body{
 }
 h3 {
     color: #595959;
+    border-top: 0.1px solid #a1a1a1;
+    padding-top: 10px;
 }
 .container {
     width: 320px;

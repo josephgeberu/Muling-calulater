@@ -2,4 +2,4 @@ let firstNumber = "1";
 let secondNumber = "2";
 let operator = "+";
 let displayContent = $(".display").text(firstNumber + operator + secondNumber);
-$("button").click(function(e){firstNumber = e})
+$("button").addEventListener("click", function(){ alert("Hello World!"); });
