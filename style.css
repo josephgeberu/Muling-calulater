@@ -1,0 +1,39 @@
+body{
+   text-align: center;
+}
+h3 {
+    color: #595959;
+}
+.container {
+    width: 320px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 40px 25px;
+    background-image: url("./back-2.jpg");
+}
+.inner{
+    display: flex;
+    flex-wrap: wrap;
+    border-style: inset;
+    padding: 10px;
+  
+}
+.display{
+    background-color: #f7f7f7;
+    height: 40px;
+    margin: 9px 7px;
+    border-style: inset;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    padding: 9px 0 0 19px;
+}
+.inner button {
+    font-size: 1rem;
+    padding: 11px 38px;
+    margin: 5px;
+    background-image: url("./back-2.jpg");
+    border: 0.2px solid #898888;
+}
+
